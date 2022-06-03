@@ -67,7 +67,7 @@ nav .nav-list li a{
 
 nav .nav-list li:not(:last-child) a:hover{
     color: #2ecc71;
-    transition: 4s;
+    transition: .4s;
 }
 
 nav .nav-list li.btn a{
@@ -265,19 +265,43 @@ nav .nav-list li.btn:hover a{
     
     .container .flex .pic{
         position: relative;
-        right: 5%;
+        right: 10%;
         top: 20%;
         
     }
 }
 
 @media screen and (max-width: 768px){
+
     nav .nav-list{
        top: 100px;
     }
+
+    nav .nav-list li.btn a{
+        position: absolute;
+        top: -90%;
+        left: 75%;
+        
+        
+    }
+
+    .container{
+        padding-top: 100px;
+    }
+
     .container .hero-text{
         position: relative;
         left: 8%;
+    }
+
+    .container .hero-text p{
+        width: 300px;
+        max-width: 100%;
+        color: #eee;
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        
     }
 
     .container .buttom p{
@@ -333,3 +357,4 @@ nav .nav-list li.btn:hover a{
 
 
 }
+
