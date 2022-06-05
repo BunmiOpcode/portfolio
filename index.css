@@ -325,7 +325,6 @@ form .signup-link a:hover{
         width: 60%; 
     }
     
-    
     .container .flex .pic{
         position: absolute;
         right: -15%;
@@ -380,11 +379,6 @@ form .signup-link a:hover{
 
     nav .nav-list{
        top: 100px;
-    }
-
-    nav .nav-list li a{
-
-        margin-left: 40px;
     }
 
     nav .nav-list li.btn a{
@@ -469,14 +463,14 @@ form .signup-link a:hover{
 
      nav .nav-list li.btn a{
          position: absolute;
-         top: -150%;
+         top: -110%;
          left: 70%;
          
          
      }
 
      nav .nav-list li a{
-        font-size: 15px;
+        font-size: 12px;
     }
  
      .container{
