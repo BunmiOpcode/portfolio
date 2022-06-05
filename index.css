@@ -178,7 +178,7 @@ nav .nav-list li.btn:hover a{
     top: 25%;
 }
 
-.cont{
+.cont, .con{
     max-width: 440px;
     padding: 0 20px;
     margin: 100px auto;
@@ -198,7 +198,7 @@ nav .nav-list li.btn:hover a{
     height: 560px;
 }
 
-.contain .wrapper{
+.contain .wrapper, .con .wrapper{
     width: 100%;
     background: transparent;
     border: 1px solid #2ecc71;
