@@ -63,7 +63,7 @@ nav .nav-list li{
 nav .nav-list li a{
     display: inline-block;
     color: #eee;
-    margin-left: 55px;
+    margin-left: 50px;
 }
 
 nav .nav-list li:not(:last-child) a:hover{
@@ -272,7 +272,7 @@ nav .nav-list li.btn:hover a{
     
 }
 
-.wrapper .con form .button input{
+.cont .wrapper form .button input{
     position: relative;
     top: 190px;
 }
