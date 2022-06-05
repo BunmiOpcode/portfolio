@@ -10,6 +10,7 @@
 
 body{
     overflow-x: hidden;
+    /* overflow: hidden; */
 }
 
 .main-width{
@@ -151,6 +152,9 @@ nav .nav-list li.btn:hover a{
     border-radius: 30px;
     cursor: pointer;
 }
+.container .hero-text button a{
+    color: #eee;
+}
 
 .container .hero-text button:hover{
     background: transparent;
@@ -160,7 +164,7 @@ nav .nav-list li.btn:hover a{
 }
 
 .image{
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;   
 }
 
@@ -170,50 +174,122 @@ nav .nav-list li.btn:hover a{
 
 .container .flex .pic{
     position: absolute;
-    right: 10%;
-    top: 15%;
+    right: 5%;
+    top: 25%;
 }
 
-.skill h1{
-    color: white;
-    font-size: 47px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin: 20px 0 20px;
+.cont{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 100px auto;
 }
 
-.skill{
-    margin-top: 10rem;
+.contain{
+    max-width: 600px;
+    padding: 0 20px;
+    margin: 100px auto;
 }
 
-.line{
-    background:#2ecc71;
-    width: 30%;
-    height: 2px;
-    margin: auto;
-
+.cont .wrapper{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    height: 560px;
 }
 
-.skill p{
-    color: #eee;
-    font-size: 15px;
-    line-height: 1.5;
+.contain .wrapper{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+    line-height: 90px;
+    background: #2ecc71;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.skill ul{
-    margin: 25px;
-    background: white;
-}
-
-.skill li{
+    border-radius: 5px 5px 0 0;
     color: #eee;
-    font-size: 15px;
-    line-height: 1.5;
-    list-style: georgian;    
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+}
+
+.wrapper form .pass a{
+    color: #2ecc71;
+    font-size: 17px;
+}
+
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .row input, .wrapper form .row select{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+
+}
+
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #eee;
+    font-size: 18px;
+    background: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .button input{
+    padding-left: 0;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+    color: #eee;
+    position: relative;
+    top: 190px;
+}
+
+form .button input:hover{
+    background: #2ecc71;
+}
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.wrapper form .signup-link a{
+    color: #2ecc71;
+    font-size: 18px; 
+}
+
+form .signup-link a:hover{
+    text-decoration: underline;
 }
 
 .buttom{
@@ -229,8 +305,30 @@ nav .nav-list li.btn:hover a{
     
 }
 
-@media screen and (max-width: 930px) {
+.row textarea{
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
 
+@media screen and (max-width: 1500px){
+
+    .image{
+        width: 60%; 
+    }
+    
+    
+    .container .flex .pic{
+        position: absolute;
+        right: -15%;
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 930px) {
     nav .nav-list{
         position: absolute;
         right: 10%;
@@ -271,6 +369,8 @@ nav .nav-list li.btn:hover a{
     }
 }
 
+
+
 @media screen and (max-width: 768px){
 
     nav .nav-list{
@@ -308,7 +408,7 @@ nav .nav-list li.btn:hover a{
         text-align: center;
     }
 
-    .skill{
+    /* .skill{
 
         margin-top: 10px;
     }
@@ -326,7 +426,6 @@ nav .nav-list li.btn:hover a{
     
     .skill ul{
         margin: 25px;
-        background: white;
     }
     
     .skill li{
@@ -336,7 +435,7 @@ nav .nav-list li.btn:hover a{
         text-align: center;
         list-style: georgian;
         
-    }
+    } */
 
     .buttom p{
         color: #eee;
@@ -354,8 +453,6 @@ nav .nav-list li.btn:hover a{
         bottom: 10px;
          
     }
-
-
 }
 
 @media screen and (max-width: 425px){
