@@ -274,7 +274,7 @@ nav .nav-list li.btn:hover a{
 
 .cont .wrapper form .button input{
     position: relative;
-    top: 190px;
+    top: 200px;
 }
 
 
@@ -380,6 +380,11 @@ form .signup-link a:hover{
 
     nav .nav-list{
        top: 100px;
+    }
+
+    nav .nav-list li a{
+
+        margin-left: 40px;
     }
 
     nav .nav-list li.btn a{
