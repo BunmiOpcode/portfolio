@@ -269,9 +269,14 @@ nav .nav-list li.btn:hover a{
     border: 1px solid #2ecc71;
     cursor: pointer;
     color: #eee;
+    
+}
+
+.wrapper .con form .button input{
     position: relative;
     top: 190px;
 }
+
 
 form .button input:hover{
     background: #2ecc71;
